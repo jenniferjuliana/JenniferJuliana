@@ -1,16 +1,33 @@
-## Hi there 👋
+html 
 
-<!--
-**jenniferjuliana/JenniferJuliana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de Página Web</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi Sitio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Here are some ideas to get you started:
+    <section id="contenido-principal">
+        <article>
+            <h2>Mi Primer Artículo</h2>
+            <p>Este es el contenido principal de mi sitio web.</p>
+        </article>
+    </section>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <footer>
+        <p>© 2024 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>
